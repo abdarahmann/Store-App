@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 
-import '../helper/api.dart';
-import '../models/product_model.dart';
+import '../../helper/api.dart';
+import '../../models/product_model.dart';
 
 part 'all_products_state.dart';
 

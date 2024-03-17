@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:store/Screens/settings_screen.dart';
 import '../Widgets/all_products_view_widget.dart';
-import '../cubit/all_products_cubit.dart';
+import '../cubits/all_products_cubit/all_products_cubit.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
