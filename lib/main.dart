@@ -7,6 +7,7 @@ import 'package:store/Screens/allcategories_screen.dart';
 import 'package:store/Screens/category_screen.dart';
 import 'package:store/Screens/settings_screen.dart';
 import 'package:store/cubits/all_categories_cubit/all_categories_cubit.dart';
+import 'package:store/cubits/category_cubit/category_cubit.dart';
 import 'Screens/home_page.dart';
 import 'Screens/update_product_screen.dart';
 import 'cubits/all_products_cubit/all_products_cubit.dart';
@@ -29,6 +30,9 @@ class StoreApp extends StatelessWidget {
         ),
          BlocProvider(
           create: (context) => AllCategoriesCubit(),
+        ),
+       BlocProvider(
+          create: (context) => CategoryCubit(),
         ),
        
       ],
